@@ -1,0 +1,142 @@
+html, body{
+    background: #E6F0FF!important;
+
+}
+#navbarColour{
+  background-color:#3C4A65;
+  font-size:10px;
+  padding:0;
+  padding-left:10px;
+}
+.navbar-light .navbar-toggler #toggler{
+color:white;
+
+
+}
+#specific{
+    color:white;
+    font-size:20px;
+}
+#current{
+    color:grey;
+    font-size:20px;
+}
+.hide{
+    display:none;
+}
+.inner{
+    border-right:1px solid white;
+    height:40%;
+    padding-left:4px;
+    padding-right:20px;
+    margin-left:5px;
+}
+.inner:hover,#forms:hover{
+    color:black;
+}
+
+#forms {
+  color:white;
+  font-size:20px;
+  height:40%;
+  padding-left:4px;
+  padding-right:20px;
+  margin-left:5px;
+}
+
+.border-left-yellow{
+    border-left:0.25em solid #f6c23e !important;
+    border-radius: 5px !important;
+
+}
+.border-left-red{
+    border-left:0.25em solid #36b9cc !important;
+    border-radius: 5px !important;
+
+
+}
+
+.border-left-green{
+    border-left:0.25em solid #00F294 !important;
+    border-radius: 5px !important;
+
+}
+.border-left-black{
+    border-left:0.25em solid #000000 !important;
+    border-radius: 5px !important;
+}
+thead{
+    color:#3C4A65 !important;
+}
+
+.card{
+    color:grey;
+}
+.card p,.card h6{
+    font-weight:400;
+}
+
+a:hover{
+    color:black;
+     text-decoration: none;
+}
+footer{
+    color:rgb(87, 87, 87);
+    background: #E6F0FF;
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+
+}
+footer ul{
+    text-align:center;
+    margin-right:50px;
+}
+
+footer li{
+    display:inline;
+    list-style-type:none;
+    padding-right:10px;
+    padding-left:10px;
+    font-weight:200;
+}
+footer a{
+    color:black;
+}
+ footer a:hover{
+color:aqua;
+
+}
+footer #aboutFooter{
+
+
+    border-left: 1px solid rgb(87, 87, 87);
+    ;
+    border-right: 1px solid rgb(87, 87, 87);;
+}
+
+@media screen and (max-width: 1000px) {
+    #logo img {
+        width:60%;
+        height:30%;
+        position:relative;
+        left:25%;
+        top:100px;
+    }
+    #first,#second,#third{
+        font-size:0px;
+    }
+    .inner{
+        border:0;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #logo img {
+    height:60%;
+   top:50%;
+   position:relative;
+   margin-top:100px;
+}
+}

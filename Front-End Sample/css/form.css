@@ -1,0 +1,162 @@
+html, body{
+  background: #E6F0FF;
+}
+
+#navbarColour{
+  background-color:#3C4A65;
+  font-size:10px;
+  padding:0;
+  padding-left:10px;
+}
+.navbar-light .navbar-toggler #toggler{
+color:white;
+
+
+}
+#specific{
+    color:white;
+    font-size:20px;
+}
+#current{
+    color:grey;
+    font-size:20px;
+    padding-right:20px;
+}
+
+.inner{
+    border-right:1px solid white;
+    height:40%;
+    padding-left:4px;
+    padding-right:20px;
+    margin-left:5px;
+}
+.inner:hover,#forms:hover{
+    color:black;
+}
+
+#forms {
+  color:white;
+  font-size:20px;
+  height:40%;
+  padding-left:4px;
+  padding-right:20px;
+  margin-left:5px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .inner{
+      border:0;
+  }
+}
+
+#image{
+  background:url(../images/litter-pickers.png);
+  background-size:cover;
+  min-height:450px;
+
+}
+
+#selector li{
+  display:inline;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#selector{
+  background:#E6F0FF;
+  text-align:center;
+  margin-bottom: 0px;
+  padding-top:10px;
+}
+
+form{
+  background: #E6F0FF;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.invalid{
+  color:red;
+  font-size:13px;
+  padding-top:3px;
+}
+
+#emailHelp, #descriptionHelp{
+  font-size:13px;
+}
+
+#map{
+  min-height: 400px;
+}
+
+footer{
+  color:rgb(87, 87, 87);
+  background: #E6F0FF;
+
+
+}
+footer ul{
+  text-align:center;
+  margin-right:50px;
+}
+
+footer li{
+  display:inline;
+  list-style-type:none;
+  padding-right:10px;
+  padding-left:10px;
+  font-weight:200;
+}
+footer a{
+  color:black;
+}
+footer a:hover{
+color:aqua;
+
+}
+footer #aboutFooter{
+  border-left: 1px solid rgb(87, 87, 87);
+  ;
+  border-right: 1px solid rgb(87, 87, 87);;
+}
+
+/*image gallery*/
+.image-checkbox {
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 4px solid transparent;
+	margin-bottom: 0;
+	outline: 0;
+}
+.image-checkbox input[type="checkbox"] {
+	display: none;
+}
+
+.image-checkbox-checked {
+	border-color: #4783B0;
+}
+
+.image-checkbox .fa {
+  position: absolute;
+  color: #4A79A3;
+  background-color: #fff;
+  padding: 10px;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.image-checkbox-checked .fa {
+  display: block !important;
+}
+
+.img-responsive {
+  width: 180px;
+  height: 120px;
+}
+
+.nopad {
+  margin-right: 60px
+}

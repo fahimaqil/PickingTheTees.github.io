@@ -1,0 +1,239 @@
+html, body{
+    background: #E6F0FF!important;
+    width:100%;
+    position:fixed;
+
+}
+
+#navbarColour{
+  background-color:#3C4A65;
+  font-size:10px;
+  padding:0;
+  padding-left:10px;
+}
+.navbar-light .navbar-toggler #toggler{
+  color:white;
+
+
+}
+#specific{
+    color:white;
+    font-size:20px;
+}
+#current{
+    color:grey;
+}
+
+.inner{
+    border-right:1px solid white;
+    height:40%;
+    padding-left:4px;
+    padding-right:20px;
+    margin-left:5px;
+}
+.inner:hover,#forms:hover{
+    color:black;
+}
+
+#forms {
+  color:white;
+  font-size:20px;
+  height:40%;
+  padding-left:4px;
+  padding-right:20px;
+  margin-left:5px;
+}
+
+
+
+@media (max-width: 1000px)
+{
+    .inner
+    {
+        border-right:none;
+    height:40%;
+    padding-left:4px;
+    padding-right:20px;
+    margin-left:5px;
+    }
+
+}
+
+.jumbotron{
+background:url(../../pic/tees.jpg);
+background-size: 100% 100%;
+min-height: 450px;
+}
+
+@media (min-width: 1200px)
+{
+    .jumbotron
+    {   position:relative;
+        height:100px;
+        width:100%;
+    }
+}
+#logo img{
+    width:30%;
+    height:30%;
+    position:absolute;
+    bottom:5%;
+    border-right:none;
+}
+.jumbotron h1{
+    color:white;
+    position:absolute;
+}
+#first{
+    bottom:110px;
+    left:500px;
+    font-weight:300;
+}
+#second{
+    bottom:50px;
+    left:800px;
+    font-weight:700;
+    font-size:50px;
+}
+
+#third{
+    bottom:10px;
+    left:950px;
+    font-weight:300;
+}
+#loginForm{
+    margin-bottom:300px;
+}
+
+#loginForm h1{
+   position:relative;
+   left:220px;
+   color:#3C4A65;
+   margin-bottom:20px;
+}
+@media screen and (max-width: 1000px) {
+    #loginForm h1{
+        position:relative;
+        left:185px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 1000px) {
+    #loginForm h1{
+        position:relative;
+        left:135px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 980px) {
+    #loginForm h1{
+        position:relative;
+        left:140px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+
+@media screen and (max-width: 900px) {
+    #loginForm h1{
+        position:relative;
+        left:137px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+
+@media screen and (max-width: 800px) {
+    #loginForm h1{
+        position:relative;
+        left:140px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 700px) {
+    #loginForm h1{
+        position:relative;
+        left:100px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 750px) {
+    #loginForm h1{
+        position:relative;
+        left:102px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    #loginForm h1{
+        position:relative;
+        left:95px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 500px) {
+    #loginForm h1{
+        position:relative;
+        left:85px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+@media screen and (max-width: 450px) {
+    #loginForm h1{
+        position:relative;
+        left:76px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+
+@media screen and (max-width: 400px) {
+    #loginForm h1{
+        position:relative;
+        left:60px;
+        color:#3C4A65;
+        margin-bottom:20px;
+     }
+}
+form{
+    color:#3C4A65;
+}
+
+footer{
+    color:rgb(87, 87, 87);
+    background: #E6F0FF;
+}
+footer ul{
+    text-align:center;
+    margin-right:50px;
+}
+
+footer li{
+    display:inline;
+    list-style-type:none;
+    padding-right:10px;
+    padding-left:10px;
+    font-weight:200;
+}
+footer a{
+    color:black;
+}
+ footer a:hover{
+color:aqua;
+
+}
+footer #aboutFooter{
+
+
+    border-left: 1px solid rgb(87, 87, 87);
+    ;
+    border-right: 1px solid rgb(87, 87, 87);;
+}
