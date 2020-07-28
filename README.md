@@ -4,7 +4,7 @@ This is the second year project for my client (https://www.riverteesrediscovered
 
 * Example of the homepage
 
-![alert](/pics/homepage.png)
+![alert](/pics/home.png)
 
 * Example of the front-end development design
 
